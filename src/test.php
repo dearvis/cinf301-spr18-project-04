@@ -1,10 +1,10 @@
 <?php
 require_once('C:\Users\shadow\Desktop\Junior Semester Classes\Semester 2\Web Apps\Twitter Project\cinf301-spr18-project-04\vendor\j7mbo\twitter-api-php\TwitterAPIExchange.php');
-
-//require_once('../vendor/j7mbo/twitter-api-php/TwitterAPIExchange.php');
-//require_once('../config.inc.php');
 require_once('C:\Users\shadow\Desktop\Junior Semester Classes\Semester 2\Web Apps\Twitter Project\cinf301-spr18-project-04\config.inc.template.php');
 
+// Path to Files from DR. Plantes code
+//require_once('../vendor/j7mbo/twitter-api-php/TwitterAPIExchange.php');
+//require_once('../config.inc.php');
 /**
  *
  * Documentation on use:
