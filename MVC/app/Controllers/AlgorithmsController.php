@@ -15,9 +15,9 @@ class AlgorithmsController
 {
     public function index()
     {
-        $algorithms = Algorithm::complete();
+        $algorithms = Algorithm::complete();        // Go inside Algorithm Class call complete
         $view = new Renderer('views/algorithms/');
-        $view->algorithms = $algorithms;
+        $view->algorithms = $algorithms;            // "algorithms" is whats returned from complete function
         $view->render('index.php');
     }
 
